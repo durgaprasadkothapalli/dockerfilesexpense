@@ -1,1 +1,2 @@
-FROM almalinux:10
+#FROM almalinux:10
+FROM docker pull almalinux:10-kitten-minimal-20260602
