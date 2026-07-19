@@ -1,7 +1,7 @@
 FROM almalinux:9
-ENV " course="Devops with aws"\
-     company=joindevops"\
-     "duration=120hrs"
+ENV course="Devops with aws"\
+    company="joindevops"\
+     duration="120hrs"
 
 # RUN dnf install nginx -y
 
