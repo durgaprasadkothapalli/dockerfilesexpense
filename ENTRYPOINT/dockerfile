@@ -1,2 +1,2 @@
 FROM almalinxu:9
-CMD ["ping","goole.com"]
+CMD ["ping","google.com"]
