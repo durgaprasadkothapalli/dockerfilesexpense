@@ -55,10 +55,10 @@
 #  CMD [ "node","index.js" ]      # index conncetion and 
 
 
-FROM node:20      # it take iamge from dockerhub image 
-EXPOSE 8080         # give the port no. of contianer 
+FROM node:20.18.0-alpine3.20 
+EXPOSE 8080       
 ENV DB_HOST="mysql"      
-RUN mkdir /opt/server      # run the workdir of the image
+RUN mkdir /opt/server      
 WORKDIR /opt/server          
 COPY package.json .
 COPY *.js .                    
