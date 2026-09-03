@@ -55,7 +55,7 @@
 #  CMD [ "node","index.js" ]      # index conncetion and 
 
 
-FROM node:20.18.0-alpine3.20 
+FROM node:20.18.0-alpine3.2 
 EXPOSE 8080       
 ENV DB_HOST="mysql"      
 RUN mkdir /opt/server      
